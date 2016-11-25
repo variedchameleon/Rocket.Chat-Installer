@@ -56,4 +56,4 @@ iptables -t nat -A PREROUTING -p tcp --dport 3000 -j REDIRECT --to-port 80
 systemctl enable rocketchat
 systemctl start rocketchat
 
-echo "Connect to your new chat server in your browser at http://LOCAL_IP:3000, any logs or errors will be in /var/log/messages"
+echo "Connect to your new chat server in your browser at http://$IP_ADDR:3000, any logs or errors will be in /var/log/messages"
