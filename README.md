@@ -7,11 +7,3 @@ However it should be required that this is installed on a fresh Virtual Machine 
 rocketinstall(Centos).sh - RHEL based distros
 
 rocketinstall(ubuntu).sh - Ubuntu, Debian, RPM, Pacman based distros
-
-## Downloads
-Still working on this, but you can dowload via Git:
-
-```
-sudo yum install git
-git clone https://github.com/curl/curl.git
-```
